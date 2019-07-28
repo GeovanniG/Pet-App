@@ -1,7 +1,7 @@
 ## Pet App
 A simple app that integrates the PetFinder API.
 
-The app many retrieve animals the API.
+The app simply retrieves animals from the API.
 
 ### Objective
 The objective was to work with a tougher API. 
