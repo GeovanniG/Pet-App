@@ -7,7 +7,7 @@ import Login from '../components/Login/Login';
 import SignUp from '../components/SignUp/SignUp';
 
 const AppRouter = () => (
-    <BrowserRouter basename="/">
+    <BrowserRouter basename="/Pet-App">
         <Switch>
             <Route path="/" component={Header} exact />
             <Route path="/browse" component={Browse} />
