@@ -5,4 +5,4 @@ The app simply retrieves animals from the API.
 
 ### Objective
 The objective was to work with a tougher API. 
-A database was also going to be integrated but it did not seem like a great idea.
+A database was also going to be integrated but it no longer seemed like a great idea (API seemed to volatile).

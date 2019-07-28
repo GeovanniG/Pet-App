@@ -18,7 +18,7 @@
     "predeploy": "npm run build",
     "deploy": "gh-pages -d build"
   },
-  "homepage": "http://GeovanniG.github.io/Pet-App",
+  "homepage": "https://geovannig.github.io/Pet-App",
   "eslintConfig": {
     "extends": "react-app"
   },
