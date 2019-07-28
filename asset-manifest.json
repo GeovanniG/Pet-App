@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/Pet-App/static/css/main.cb9134ac.chunk.css",
+    "main.js": "/Pet-App/static/js/main.1216a983.chunk.js",
+    "main.js.map": "/Pet-App/static/js/main.1216a983.chunk.js.map",
+    "runtime~main.js": "/Pet-App/static/js/runtime~main.bbd8f0f2.js",
+    "runtime~main.js.map": "/Pet-App/static/js/runtime~main.bbd8f0f2.js.map",
+    "static/js/2.da936911.chunk.js": "/Pet-App/static/js/2.da936911.chunk.js",
+    "static/js/2.da936911.chunk.js.map": "/Pet-App/static/js/2.da936911.chunk.js.map",
+    "index.html": "/Pet-App/index.html",
+    "precache-manifest.f27054923907d507904c911136f2c621.js": "/Pet-App/precache-manifest.f27054923907d507904c911136f2c621.js",
+    "service-worker.js": "/Pet-App/service-worker.js",
+    "static/css/main.cb9134ac.chunk.css.map": "/Pet-App/static/css/main.cb9134ac.chunk.css.map",
+    "static/media/header_bg.jpg": "/Pet-App/static/media/header_bg.b57234b7.jpg"
+  }
+}
