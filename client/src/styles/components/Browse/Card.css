@@ -1,0 +1,120 @@
+.card {
+    /* If card heights are overlapping then increase card height */
+    --card-height: 60rem;
+
+    border-bottom: 1px solid rgba(54, 55, 50, 0.575);
+    display: block;
+    height: var(--card-height);
+    margin: var(--s-size) 0;
+    position: relative;
+    overflow: hidden;
+    /* change width to 50% then 30% at appropriate breakpoints */
+    width: 100%;
+    /* height: 100%; */
+}
+
+.card__title {
+    font-size: var(--l-size);   
+}
+
+.card__img {
+    /* Make sure img-height is less than card-height */
+    --card__img-height: 50rem;
+
+    border-radius: 5px;
+    margin-bottom: var(--s-size);
+    max-height: var(--card__img-height);
+    width: auto;
+}
+
+.card__front {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    position: absolute;
+    /* Pull to the right to hide scroll bar */
+    /* Can safely be removed after 800px */
+    padding-right: 21px;
+    padding-bottom: var(--m-size);
+    text-align: center;
+    width: 100%;
+}
+
+.card--overflow {
+    overflow-x: hidden;
+    overflow-y: scroll;   
+    right: -17px;
+}
+
+.card__title {
+    font-size: var(--l-size);
+    font-weight: normal;
+}
+
+.card__back {
+    height: 100%;
+    position: absolute;
+    /* Pull to the right to hide scroll bar */
+    /* Can safely be removed after 800px */
+    padding-right: 17px;
+    width: 100%;
+}
+
+.card__title--back {
+    text-align: center;
+}
+
+.card__back-btns {
+    padding: var(--s-size) 0;
+    text-align: center;
+}
+
+.card__back-btn {
+    margin: 0 var(--s-size);
+}
+
+.card__text {
+    padding: var(--s-size) var(--xl-size);
+    text-indent: var(--m-size);
+}
+
+.card-enter {
+    opacity: 0.01;
+}
+  
+.card-enter.card-enter-active {
+    opacity: 1;
+    transition: opacity 500ms ease-in;
+}
+
+.card-leave {
+    opacity: 1;
+}
+
+.card-leave.card-leave-active {
+    opacity: 0.01;
+    transition: opacity 300ms ease-in;
+}
+
+
+/* @media (min-width: var(--s-breakpoint) { */
+@media (min-width: 650px) {
+    .card {
+        width: 50%;
+    }
+}
+
+/* @media (min-width: var(--m-breakpoint) { */
+@media (min-width: 800px) {
+    .card {
+        width: 32%;
+    }
+    .card--overflow {
+        overflow-y: hidden;
+        right: 0;
+    }
+    .card__front, .card__back {
+        padding-right: 0;
+    }
+}

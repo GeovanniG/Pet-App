@@ -1,0 +1,63 @@
+.animal-card-form {
+    display: block;
+    margin: var(--m-size) auto;
+    position: relative;
+}
+
+.animal-form {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    grid-row-gap: var(--m-size);
+    padding: var(--m-size);
+    position: absolute;
+    width: 100%;
+}
+
+.animal-form-card {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.animal-form-card__btn {
+    margin: var(--s-size);
+}
+
+.animal-form__input {
+    padding: var(--m-size);
+}
+
+.animal-form-enter {
+    opacity: 0.01;
+}
+  
+.animal-form-enter.animal-form-enter-active {
+    opacity: 1;
+    transition: opacity 500ms ease-in;
+}
+
+.animal-form-leave {
+    opacity: 1;
+}
+
+.animal-form-leave.animal-form-leave-active {
+    opacity: 0.01;
+    transition: opacity 300ms ease-in;
+}
+
+/* @media (min-width: var(--s-breakpoint)) { */
+@media (min-width: 650px) {
+    .animal-card-form {
+        width: 80%;
+    }
+}
+
+/* @media (min-width: var(--m-breakpoint)) { */
+@media (min-width: 800px) {
+    .animal-card-form {
+        width: 70%;
+    }
+}

@@ -1,0 +1,11 @@
+@import './base/base.css';
+@import './components/Browse/Card.css';
+@import './components/Browse/CardList.css';
+@import './components/Browse/Browse.css';
+@import './components/Search/SearchForm.css';
+@import './components/Nav.css';
+@import './components/Home/Header.css';
+@import './components/Home/Home.css';
+@import './components/Login/LoginForm.css';
+@import './components/SignUp/SignUp.css';
+@import url('https://fonts.googleapis.com/css?family=Montserrat:400,800&display=swap');

@@ -1,0 +1,10 @@
+.next-icon {
+    background: rgba(81, 85, 64, 0.397);
+    color: var(--white-primary);
+    font-size: var(--l-size);
+    font-weight: 600;
+    padding: var(--s-size);
+    position: fixed;
+    top: 60%;
+    right: 0;
+}

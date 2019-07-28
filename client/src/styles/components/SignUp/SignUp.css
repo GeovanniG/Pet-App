@@ -1,0 +1,36 @@
+.sign-up-form {
+    display: grid;
+    font-size: var(--l-size);
+    grid-row-gap: var(--m-size);
+    margin: var(--l-size) auto;
+    padding: var(--l-size);
+}
+
+.sign-up-form__input {
+    padding: var(--m-size);
+    font-size: var(--m-size);
+}
+
+.sign-up-form--red-bold {
+    color: red;
+    font-weight: 600;
+}
+
+.sign-up-form__btn {
+    padding: var(--m-size) 0;
+    font-size: var(--m-size);
+}
+
+/* @media (min-width: var(--s-breakpoint)) { */
+@media (min-width: 650px) {
+    .sign-up-form {
+        width: 70%;
+    }
+}
+
+/* @media (min-width: var(--m-breakpoint)) { */
+@media (min-width: 800px) {
+    .sign-up-form {
+        width: 50%;
+    }
+}
